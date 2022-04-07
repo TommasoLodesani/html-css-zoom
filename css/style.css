@@ -33,11 +33,17 @@ header #container .view{
     color: white;
     background-color: gray;
     margin-right: 5px;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 12px;
 
 }
 
 header #container .expand{
     background-color: gray;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 12px;
 }
 
 
@@ -47,7 +53,7 @@ header #container .expand{
 main{
     height: calc(100vh - 110px);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
    
@@ -58,6 +64,9 @@ main{
 main .immagine{
     width: 250px;
     height: 130px;
+   
+    margin: 5px;
+
     /* background-color: red; */
     /* border: solid 4px black; */
 }
@@ -78,6 +87,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 5px;
     
 }
 
@@ -91,7 +101,13 @@ footer ul{
 footer  ul li{
     color: white;
     font-size: 12px;
+    margin: 0 2px;
 
+}
+
+footer  ul li span{
+    display: block;
+    margin-top: 3px;
 }
 
 footer ul i{
