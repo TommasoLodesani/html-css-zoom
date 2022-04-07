@@ -70,11 +70,12 @@ footer #col-sx, #col-dx{
     /* background-color: yellow; */
 }
 
-/* footer #col-cen{
+footer #col-cen{
+    display: flex;
+    justify-content: center;
     width: 60%;
-    background-color: yellow;
     margin: 0 20px;
-} */
+}
 
 
 footer #col-sx ul{
@@ -99,4 +100,27 @@ footer #col-sx ul #arrow{
     color:white;
     font-size: 15px;
 }
+
+
+footer #col-cen ul{
+    display: flex;
+    text-align: center;
+    /* width: 100%; */
+}
+
+footer #col-cen ul li{
+    color: white;
+    font-size: 12px;
+
+}
+
+footer #col-cen ul i{
+    color: white;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+footer #col-cen ul #arrow{
+    color:white;
+    font-size: 15px;
 }
