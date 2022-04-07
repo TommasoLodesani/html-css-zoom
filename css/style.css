@@ -64,10 +64,11 @@ footer{
     
 }
 
-footer #col-sx, #col-dx{
+
+footer ul{
     display: flex;
-    /* width: 20%; */
-    /* background-color: yellow; */
+    align-items: center;
+    text-align: center;
 }
 
 footer  ul li{
@@ -87,26 +88,6 @@ footer ul #arrow{
     font-size: 15px;
 }
 
-footer #col-cen{
-    display: flex;
-    justify-content: center;
-    /* width: 60%; */
-    margin: 0 20px;
-}
-
-
-footer #col-sx ul{
-    display: flex;
-    text-align: center;
-    width: 100%;
-}
-
-
-footer #col-cen ul{
-    display: flex;
-    text-align: center;
-    /* width: 100%; */
-}
 
 footer #col-dx{
     color: red;
