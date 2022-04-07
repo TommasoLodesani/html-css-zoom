@@ -54,16 +54,18 @@ main{
     overflow-y: auto;
 }
 
-main #immagine{
-    width: 100px;
-    height: 80px;
-    background-color: red;
-    border: solid 4px black;
+
+main .immagine{
+    width: 250px;
+    height: 130px;
+    /* background-color: red; */
+    /* border: solid 4px black; */
 }
 
-/* img{
+main img{
     max-width: 100%;
-} */
+    /* padding: 10px 20px; */
+}
 
 
 /* footer */
