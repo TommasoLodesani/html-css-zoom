@@ -84,19 +84,19 @@ footer #col-sx ul{
     width: 100%;
 }
 
-footer #col-sx ul li{
+footer  ul li{
     color: white;
     font-size: 12px;
 
 }
 
-footer #col-sx ul i{
+footer  ul i{
     color: white;
     font-size: 30px;
     padding: 0 10px;
 }
 
-footer #col-sx ul #arrow{
+footer  ul #arrow{
     color:white;
     font-size: 15px;
 }
@@ -106,21 +106,4 @@ footer #col-cen ul{
     display: flex;
     text-align: center;
     /* width: 100%; */
-}
-
-footer #col-cen ul li{
-    color: white;
-    font-size: 12px;
-
-}
-
-footer #col-cen ul i{
-    color: white;
-    font-size: 30px;
-    padding: 0 10px;
-}
-
-footer #col-cen ul #arrow{
-    color:white;
-    font-size: 15px;
 }
