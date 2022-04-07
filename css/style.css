@@ -64,7 +64,7 @@ main{
 main .immagine{
     width: 250px;
     height: 130px;
-   
+    position: relative;
     margin: 5px;
 
     /* background-color: red; */
@@ -74,6 +74,16 @@ main .immagine{
 main img{
     max-width: 100%;
     /* padding: 10px 20px; */
+}
+
+main .immagine .caption{
+    position: absolute;
+    color: white;
+    background-color: gray;
+    font-size: 15px;
+    padding: 3px;
+    bottom: 3px;
+    left: 0;
 }
 
 
