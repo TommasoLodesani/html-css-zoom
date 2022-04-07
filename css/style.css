@@ -66,14 +66,31 @@ footer{
 
 footer #col-sx, #col-dx{
     display: flex;
-    width: 20%;
+    /* width: 20%; */
     /* background-color: yellow; */
+}
+
+footer  ul li{
+    color: white;
+    font-size: 12px;
+
+}
+
+footer ul i{
+    color: white;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+footer ul #arrow{
+    color:white;
+    font-size: 15px;
 }
 
 footer #col-cen{
     display: flex;
     justify-content: center;
-    width: 60%;
+    /* width: 60%; */
     margin: 0 20px;
 }
 
@@ -84,26 +101,16 @@ footer #col-sx ul{
     width: 100%;
 }
 
-footer  ul li{
-    color: white;
-    font-size: 12px;
-
-}
-
-footer  ul i{
-    color: white;
-    font-size: 30px;
-    padding: 0 10px;
-}
-
-footer  ul #arrow{
-    color:white;
-    font-size: 15px;
-}
-
 
 footer #col-cen ul{
     display: flex;
     text-align: center;
     /* width: 100%; */
+}
+
+footer #col-dx{
+    color: red;
+    background-color: #4a4a4a;
+    padding: 20px 10px;
+    margin-right: 2px;
 }
