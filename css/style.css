@@ -50,6 +50,7 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 0;
+    overflow-y: auto;
 }
 
 main #immagine{
