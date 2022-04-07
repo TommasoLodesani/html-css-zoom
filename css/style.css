@@ -46,8 +46,17 @@ header #container .expand{
 
 main{
     height: calc(100vh - 110px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0;
+}
 
-    
+main #immagine{
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    border: solid 4px black;
 }
 
 
